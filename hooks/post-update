@@ -1,3 +1,4 @@
 #!/bin/bash
+git remote add otherRepo https://github.com/davis190/git-hooks-test2.git
 git fetch origin
-git push origin https://github.com/davis190/git-hooks-test2.git
+git push otherRepo master
